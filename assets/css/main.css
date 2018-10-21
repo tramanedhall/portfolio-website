@@ -206,6 +206,11 @@ input, select, textarea {
 		clear: both;
 	}
 
+	.photocaption {
+		font-style: italic;
+		font-weight: 100;
+	}
+
 /* Container */
 
 	.container {
