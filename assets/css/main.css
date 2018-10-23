@@ -1,5 +1,5 @@
 @import url("font-awesome.min.css");
-@import url('https://fonts.googleapis.com/css?family=Muli:300|Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Muli:200|Open+Sans');
 
 
 html, body, div, span, applet, object,
@@ -107,7 +107,6 @@ input, select, textarea {
 
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 300;
-		color: #666;
 		line-height: 1.5em;
 	}
 
@@ -202,6 +201,7 @@ input, select, textarea {
 	p, ul, ol, dl, table {
 		margin-bottom: 2em;
 		font-family: 'Open Sans', 'sans serif';
+		color: #394346
 	}
 
 	br.clear {
@@ -2164,6 +2164,14 @@ input, select, textarea {
 					#nav ul li a.active span:before {
 						color: #B8336A;
 					}
+				
+				#nav ul li a.resume {
+					color: #B8336A;
+				}
+					#nav ul li a.resume span:before {
+						color: #B8336A;
+					}
+					
 
 /* Footer */
 
@@ -2241,20 +2249,31 @@ input, select, textarea {
 			}
 
 			#main > section.one {
-				background-color: #81918E;
-				background-image: url("../../images/introbackground.jpg");
+				background-color: rgba(129, 145, 142, 06);
+				background-image: url("../../images/pilotmountain.jpg");
+				color: #FCFCFC;
+				
+			}
+
+			#main > section.one p {
+				color: #FCFCFC;
+				padding-top: 1.8em;
+				padding-bottom: 1.8em;
 			}
 
 			#main > section.two {
-				background-color: #f5fafa;
+				background-color: #e8edec;
+				color: #394346;
 			}
 
 			#main > section.three {
-				background-color: #ecf1f1;
+				background-color: #e8edec;
+				color: #394346;
 			}
 
 			#main > section.four {
 				background-color: #e8edec;
+				color: #394346;
 			}
 
 /* Wide */
